@@ -1,4 +1,5 @@
 #include <stdio.h>
+/** main -modifying one line*/
 int main(void)
 {
 int n;
