@@ -1,7 +1,7 @@
 #include <stdio.h>
-	#include <stdlib.h>
-	#include <ctype.h>
-	#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 	/**
 	 * check_num - check - string there are digit
 	 * @str: array str
@@ -9,8 +9,8 @@
 	 * Return: Always 0 (Success)
 	 */
 int check_num(char *str)
-	{
-		/*Declaring variables*/
+{
+/*Declaring variables*/
 		unsigned int count;
 count = 0;
 		while (count < strlen(str)) /*count string*/
@@ -31,8 +31,8 @@ count = 0;
 	 * Return: Always 0 (Success)
 	 */
 int main(int argc, char *argv[])
-	{
-		/*Declaring variables*/
+{
+/*Declaring variables*/
 		int count;
 		int str_to_int;
 		int sum = 0;
